@@ -2,7 +2,7 @@
 
 A production-ready, enterprise-grade system for fine-tuning open-source Large Language Models using parameter-efficient methods (LoRA/QLoRA). This project demonstrates professional ML engineering practices suitable for client presentations and portfolio showcases.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project provides a **complete, production-ready framework** for fine-tuning large language models on consumer-grade GPUs. It uses state-of-the-art parameter-efficient fine-tuning (PEFT) techniques to adapt powerful base models (Mistral-7B, LLaMA-2-7B) for domain-specific tasks.
 
@@ -22,7 +22,7 @@ This project provides a **complete, production-ready framework** for fine-tuning
 - **Reproducible**: Seeded random states and deterministic training
 - **Modular Design**: Easy to swap models, datasets, or configurations
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ├── config.py              # Central configuration (all hyperparameters)
@@ -60,10 +60,10 @@ This project provides a **complete, production-ready framework** for fine-tuning
 - Mixed precision training (FP16)
 - Regular evaluation and checkpointing
 
-## 📋 Requirements
+##  Requirements
 
 ### Hardware
-- **Minimum**: 16GB GPU (RTX 4090, A4000, etc.)
+- **Minimum**: 8GB GPU (RTX 4060, A4000, etc.)
 - **Recommended**: 24GB GPU (RTX 4090, A5000, A6000)
 - **RAM**: 32GB system memory recommended
 - **Storage**: 50GB free space (for model downloads)
@@ -73,7 +73,7 @@ This project provides a **complete, production-ready framework** for fine-tuning
 - CUDA 11.8+ (for GPU acceleration)
 - PyTorch 2.1+
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -137,7 +137,7 @@ tensorboard --logdir logs/
 ```
 
 **Expected training time:**
-- RTX 4090: ~15-30 minutes (20 samples, 3 epochs)
+- RTX 5070 ti : ~15-30 minutes (20 samples, 3 epochs)
 - A6000: ~20-40 minutes
 - CPU: Not recommended (very slow)
 
@@ -244,7 +244,7 @@ BASE_MODEL_NAME = "meta-llama/Llama-2-7b-hf"  # LLaMA 2
 BASE_MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"  # Mistral Instruct
 ```
 
-## 🎓 Educational Value
+##  Educational Value
 
 ### What This Project Teaches
 
@@ -352,14 +352,14 @@ Key parameters to experiment with:
 - Reduce logging frequency
 - Use fewer evaluation steps
 
-## 📚 References
+##  References
 
 - **LoRA Paper**: [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - **QLoRA Paper**: [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 - **Mistral**: [Mistral 7B](https://mistral.ai/)
 - **Hugging Face**: [PEFT Documentation](https://huggingface.co/docs/peft)
 
-## 🤝 Contributing
+##  Contributing
 
 This project is designed for educational and commercial use. Feel free to:
 - Adapt for your specific use case
@@ -370,7 +370,7 @@ This project is designed for educational and commercial use. Feel free to:
 
 This project structure and code are provided as-is for educational and commercial purposes. Note that base models (Mistral, LLaMA) have their own licenses - check Hugging Face model cards for details.
 
-## 🎯 Next Steps
+##  Next Steps
 
 1. **Train on your data**: Replace demo dataset with domain-specific examples
 2. **Optimize for your use case**: Tune hyperparameters for your quality/speed requirements
