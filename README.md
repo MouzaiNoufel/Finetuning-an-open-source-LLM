@@ -166,7 +166,7 @@ python inference.py --demo
 python inference.py "Explain how photosynthesis works"
 ```
 
-## 📊 Understanding the Results
+##  Understanding the Results
 
 ### Metrics
 
@@ -191,7 +191,7 @@ The model learns to:
 - Maintain consistency with training style
 - Handle various question types
 
-## 🔧 Customization
+##  Customization
 
 ### Using Your Own Dataset
 
@@ -262,7 +262,7 @@ BASE_MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"  # Mistral Instruct
 - **Data Collation**: Batching variable-length sequences
 - **Model Serialization**: Saving/loading adapter weights
 
-## 💼 Client Presentation Points
+##  Client Presentation Points
 
 ### Value Propositions
 
@@ -295,7 +295,7 @@ BASE_MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"  # Mistral Instruct
 4. **Discuss metrics**: Quantifiable improvements
 5. **Roadmap**: How to deploy and maintain
 
-## 🔬 Advanced Topics
+##  Advanced Topics
 
 ### Merging Adapters
 
@@ -366,7 +366,7 @@ This project is designed for educational and commercial use. Feel free to:
 - Extend with new features
 - Share improvements
 
-## 📄 License
+##  License
 
 This project structure and code are provided as-is for educational and commercial purposes. Note that base models (Mistral, LLaMA) have their own licenses - check Hugging Face model cards for details.
 
